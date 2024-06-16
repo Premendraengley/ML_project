@@ -32,3 +32,19 @@ Pandas
 Scikit-learn
 Matplotlib
 Seaborn
+
+Model Training
+The project includes a Jupyter Notebook (diabetes_prediction.ipynb) that details the entire process of training the model, including:
+
+Data Preprocessing: Handling missing values, feature scaling, and splitting the dataset into training and testing sets.
+Exploratory Data Analysis (EDA): Visualizing the distribution of features and their relationships with the target variable.
+Model Selection: Trying different algorithms (e.g., Logistic Regression, Random Forest, SVM) and selecting the best performing model based on evaluation metrics.
+Hyperparameter Tuning: Using Grid Search or Random Search to find the optimal hyperparameters for the chosen model.
+Evaluation: Assessing the model's performance using metrics such as accuracy, precision, recall, and ROC-AUC.
+Results
+The final model achieved the following performance on the test set:
+
+Accuracy: 78%
+Precision: 0.75
+Recall: 0.70
+ROC-AUC: 0.82
